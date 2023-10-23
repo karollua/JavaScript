@@ -1,0 +1,26 @@
+h1{
+    border-bottom-style: inset;
+}
+pre{
+    font-size: 1.2em;
+}
+img.normal{
+    float:left;
+    height: 300px;
+    width: 300px;
+}
+span{
+    margin-right: 70px;
+}
+.fonte1{
+    color: blue;
+}
+.fonte2{
+    color: red;
+}
+.fonte3{
+    color: green;
+}
+.fonte4{
+    color: orange;
+}

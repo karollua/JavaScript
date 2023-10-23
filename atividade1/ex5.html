@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Análise de Dados</h1>
+    <form id="dataForm">
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" min="0" required>
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" min="0" required>
+        <label for="sexo">Sexo (M ou F):</label>
+        <input type="text" id="sexo" required>
+        <button type="button" id="calcularButton">Registrar Dados</button>
+    </form>
+    <div id="results">
+        <p>Total de homens: <span id="totalHomens"></span></p>
+        <p>Total de mulheres: <span id="totalMulheres"></span></p>
+        <p>Média de idades dos homens: <span id="mediaIdadesHomens"></span> anos</p>
+        <p>Média de idades das mulheres: <span id="mediaIdadesMulheres"></span> anos</p>
+    </div>
+    
+    <script src="ex5.js"></script>
+</body>
+</html>

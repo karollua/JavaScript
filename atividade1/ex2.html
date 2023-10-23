@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="" href="styles.css">
+</head>
+<body>
+    <h1>Análise de Opiniões de Espectadores</h1>
+    <form id="surveyForm">
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" min="0" required>
+        <label for="opiniao">Opinião (ótimo-3, bom-2, regular-1):</label>
+        <input type="number" id="opiniao" min="1" max="3" required>
+        <button type="button" id="calcularButton">Registrar Resposta</button>
+    </form>
+    <div id="results">
+        <p>Média de idades das opiniões "ótimo": <span id="mediaIdadesOtimo"></span> anos</p>
+        <p>Quantidade de opiniões "regular": <span id="quantidadeRegular"></span></p>
+        <p>Porcentagem de opiniões "bom": <span id="porcentagemBom"></span>%</p>
+    </div>
+    
+    <script src="ex2.js"></script>
+</body>
+</html>
